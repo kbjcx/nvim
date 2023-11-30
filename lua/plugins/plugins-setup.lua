@@ -47,6 +47,7 @@ local plugins = {
 		dependencies = { { "nvim-lua/plenary.nvim" } }, -- requires要改为dependencies
 	},
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }, -- indent line
+	"voldikss/vim-floaterm", -- float terminal
 }
 local opts = {} -- 注意要定义这个变量
 
