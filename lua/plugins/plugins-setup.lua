@@ -46,6 +46,7 @@ local plugins = {
 		"nvim-telescope/telescope.nvim", -- 文件检索
 		dependencies = { { "nvim-lua/plenary.nvim" } }, -- requires要改为dependencies
 	},
+	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }, -- indent line
 }
 local opts = {} -- 注意要定义这个变量
 
