@@ -30,3 +30,4 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 keymap.set("n", "<leader>f", ":NvimTreeFocus<CR>")
 
 keymap.set("n", "<C-s>", ":w<CR>")
+keymap.set("n", "<C-L>", "gcc")
