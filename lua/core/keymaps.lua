@@ -1,6 +1,5 @@
 vim.g.mapleader = " "
 local keymap = vim.keymap
-
 -- ---------- 插入模式 ---------- ---
 keymap.set("i", "jk", "<ESC>")
 
@@ -29,5 +28,5 @@ keymap.set("n", "<leader>t", ":FloatermNew --autoclose=2<CR>")
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 keymap.set("n", "<leader>f", ":NvimTreeFocus<CR>")
 
+keymap.set("i", "<C-s>", "<ESC>:w<CR--[[ >")
 keymap.set("n", "<C-s>", ":w<CR>")
-keymap.set("n", "<C-L>", "gcc")
