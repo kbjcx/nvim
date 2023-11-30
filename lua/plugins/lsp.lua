@@ -44,6 +44,8 @@ require("lspconfig").clangd.setup({
 	filetypes = { "c", "cpp", "objc", "objcpp", "cuda" },
 })
 
-require("lspconfig").cmake.setup({})
+require("lspconfig").cmake.setup({
+	buildDirectory = "build",
+})
 
 require("lspconfig").pylsp.setup({})
