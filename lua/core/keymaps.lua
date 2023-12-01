@@ -39,3 +39,10 @@ keymap.set("n", "<C-z>", ":undo<CR>")
 -- redo
 keymap.set("i", "<C-y>", "<ESC>:redo<CR>")
 keymap.set("n", "<C-y>", ":redo<CR>")
+
+keymap.set("n", "]]", "<END>")
+keymap.set("n", "[[", "<HOME>")
+keymap.set("i", "]]", "<END>")
+keymap.set("i", "[[", "<HOME>")
+keymap.set("n", "<leader>[", "<PAGEUP>")
+keymap.set("n", "<leader>]", "<PAGEDOWN>")
