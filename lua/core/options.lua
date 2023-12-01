@@ -21,6 +21,7 @@ opt.mouse:append("a")
 
 -- 系统剪贴板
 opt.clipboard:append("unnamedplus")
+opt.clipboard:append("unnamed")
 
 -- 默认新窗口右和下
 opt.splitright = true
@@ -33,4 +34,4 @@ opt.smartcase = true
 -- 外观
 opt.termguicolors = true
 opt.signcolumn = "yes"
-vim.cmd[[colorscheme tokyonight-moon]]
+vim.cmd([[colorscheme tokyonight-moon]])
