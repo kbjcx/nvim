@@ -17,8 +17,8 @@ keymap.set("n", "<leader>sh", ":sp<CR>") -- 垂直新增窗口
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- 切换buffer
-keymap.set("n", "<S-L>", ":bnext<CR>")
-keymap.set("n", "<S-H>", ":bprevious<CR>")
+keymap.set("n", "<S-L>", ":w<CR>:bnext<CR>")
+keymap.set("n", "<S-H>", ":w<CR>:bprevious<CR>")
 
 -- open float terminal
 keymap.set("n", "<leader>t", ":FloatermNew --autoclose=2<CR>")
@@ -46,3 +46,6 @@ keymap.set("i", "]]", "<END>")
 keymap.set("i", "[[", "<HOME>")
 keymap.set("n", "<leader>[", "<PAGEUP>")
 keymap.set("n", "<leader>]", "<PAGEDOWN>")
+
+-- save and exit
+keymap.set("n", "<leader>sc", ":NvimTreeClose<CR>:wq<CR>")
