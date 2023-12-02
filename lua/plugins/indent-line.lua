@@ -23,6 +23,21 @@ hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
 end)
 
 require("ibl").setup({
-	indent = { highlight = highlight, char = "╎" },
+	indent = { highlight = highlight, char = "|" },
 	scope = { enabled = true, highlight = highlight },
+	exclude = {
+		filetypes = {
+			"help",
+			"alpha",
+			"dashboard",
+			"neo-tree",
+			"Trouble",
+			"trouble",
+			"lazy",
+			"mason",
+			"notify",
+			"toggleterm",
+			"lazyterm",
+		},
+	},
 })
