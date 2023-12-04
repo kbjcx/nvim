@@ -21,7 +21,6 @@ opt.mouse:append("a")
 
 -- 系统剪贴板
 opt.clipboard:append("unnamedplus")
-opt.clipboard:append("unnamed")
 
 -- 默认新窗口右和下
 opt.splitright = true
